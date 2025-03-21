@@ -1,0 +1,3 @@
+services:
+  checkmk:
+    network_mode: ${CHECKMK_NETWORK_MODE}

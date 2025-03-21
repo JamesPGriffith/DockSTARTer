@@ -1,0 +1,14 @@
+services:
+  checkmk:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Checkmk is a leading tool for Infrastructure and Application Monitoring. Simple configuration, scalable, flexible."
+      com.dockstarter.appinfo.nicename: "Checkmk"
+      com.dockstarter.appvars.checkmk_container_name: "checkmk"
+      com.dockstarter.appvars.checkmk_enabled: "false"
+      com.dockstarter.appvars.checkmk_environment_site_name: "DockSTARTer"
+      com.dockstarter.appvars.checkmk_network_mode: ""
+      com.dockstarter.appvars.checkmk_port_5000: "5000"
+      com.dockstarter.appvars.checkmk_port_8000: "8000"
+      com.dockstarter.appvars.checkmk_restart: "unless-stopped"
+      com.dockstarter.appvars.checkmk_tag: "latest"

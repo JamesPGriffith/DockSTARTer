@@ -1,0 +1,10 @@
+services:
+  checkmk:
+    container_name: ${CHECKMK_CONTAINER_NAME}
+    environment:
+      - TZ=${TZ}
+      # - tmpfs=/opt/omd/sites/${checkmk_environment_site_name}/tmp:uid=${PUID},gid=${PGID}
+    restart: ${CHECKMK_RESTART}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG}/checkmk:/omd/sites

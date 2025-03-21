@@ -1,0 +1,5 @@
+services:
+  checkmk:
+    ports:
+      - ${CHECKMK_PORT_5000}:5000
+      - ${CHECKMK_PORT_8000}:8000

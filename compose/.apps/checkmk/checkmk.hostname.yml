@@ -1,0 +1,3 @@
+services:
+  checkmk:
+    hostname: ${DOCKER_HOSTNAME}
